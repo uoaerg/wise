@@ -1,0 +1,6 @@
+ARCH_READ_SENSORS=collect-view-$(TARGET).c
+ifeq ($(wildcard $(CONTIKI)/apps/collect-view/$(ARCH_READ_SENSORS)),)
+	ARCH_READ_SENSORS=collect-view-template.c
+endif
+
+collect-view_src = collect-view.c $(ARCH_READ_SENSORS)
