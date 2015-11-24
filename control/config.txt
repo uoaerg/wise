@@ -1,0 +1,1 @@
+time interval between successive images : 5 

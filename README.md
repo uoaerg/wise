@@ -47,5 +47,6 @@ field trials to monitor wildlife in different locations.
 Repository Layout
 -----------------
 
+ * `control/` - Sensor node control application
  * `contiki/` - Initial development work on a Contiki-based sensor node
  * `sql_proj/` - Experimental development work using SQL based data store
